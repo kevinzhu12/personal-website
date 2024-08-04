@@ -21,20 +21,22 @@ import { useState, useEffect } from "react";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [gradientColor, setGradientColor] = useState("#F0F0F0");
 
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
-  };
-  let gradientColor = "#F0F0F0";
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
-      gradientColor = "#333333";
+      setGradientColor("#333333");
     } else {
       document.documentElement.classList.remove("dark");
-      gradientColor = "#F0F0F0";
+      setGradientColor("#F0F0F0");
     }
   }, [isDarkMode]); // This effect will run whenever isDarkMode changes
+
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+    console.log(isDarkMode);
+  };
 
   return (
     <main className="space-y-10 my-10 dark:text-white">
