@@ -134,90 +134,87 @@ export default function Home() {
         <div className=" space-y-5">
           <MagicCard
             className="cursor-pointer shadow-sm bg-white"
-            children={
-              <a href="https:llnl.gov" target="_blank">
-                <div className="flex">
-                  <Image
-                    src={llnl}
-                    // className=" rounded-lg"
-                    width={108}
-                    height={108}
-                  />
-                  <div className="pl-5 pr-2 py-4">
-                    <h2 className="text-lg font-bold">
-                      Lawrence Livermore National Laboratory
-                    </h2>
-
-                    <h3 className=" text-md ">Data Science Intern</h3>
-                    <h2 className="text-md">May - Aug 2024</h2>
-                    {/* <p className="">
-                      Developed predictive model for phenotypic measures and
-                      athletic performance using LASSO. Identified significant
-                      biomarkers through feature selection.
-                    </p> */}
-                  </div>
-                </div>
-              </a>
-            }
             gradientSize={500}
             gradientColor={gradientColor}
-          ></MagicCard>
+          >
+            <a href="https:llnl.gov" target="_blank">
+              <div className="flex">
+                <Image
+                  src={llnl}
+                  // className=" rounded-lg"
+                  width={108}
+                  height={108}
+                />
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-lg font-bold">
+                    Lawrence Livermore National Laboratory
+                  </h2>
+
+                  <h3 className=" text-md ">Data Science Intern</h3>
+                  <h2 className="text-md">May - Aug 2024</h2>
+                  {/* <p className="">
+                Developed predictive model for phenotypic measures and
+                athletic performance using LASSO. Identified significant
+                biomarkers through feature selection.
+              </p> */}
+                </div>
+              </div>
+            </a>
+          </MagicCard>
           <MagicCard
             className="cursor-pointer shadow-sm bg-white"
-            children={
-              <a href="https://www.swiftly.com/" target="_blank">
-                <div className="flex">
-                  <Image
-                    src={swiftly}
-                    // className=" rounded-lg"
-                    width={108}
-                    height={108}
-                  />
-                  <div className="pl-5 pr-2 py-4">
-                    <h2 className="text-lg font-bold">Swiftly</h2>
-
-                    <h3 className=" text-md ">Tech Consultant</h3>
-                    <h2 className="text-md">Jan - May 2024</h2>
-                    {/* <p className="">
-                      Developed predictive model for phenotypic measures and
-                      athletic performance using LASSO. Identified significant
-                      biomarkers through feature selection.
-                    </p> */}
-                  </div>
-                </div>
-              </a>
-            }
             gradientSize={500}
             gradientColor={gradientColor}
-          ></MagicCard>
+          >
+            <a href="https://www.swiftly.com/" target="_blank">
+              <div className="flex">
+                <Image
+                  src={swiftly}
+                  // className=" rounded-lg"
+                  width={108}
+                  height={108}
+                />
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-lg font-bold">Swiftly</h2>
+
+                  <h3 className=" text-md ">Tech Consultant</h3>
+                  <h2 className="text-md">Jan - May 2024</h2>
+                  {/* <p className="">
+                Developed predictive model for phenotypic measures and
+                athletic performance using LASSO. Identified significant
+                biomarkers through feature selection.
+              </p> */}
+                </div>
+              </div>
+            </a>
+          </MagicCard>
           <MagicCard
             className="cursor-pointer shadow-sm bg-white"
-            children={
-              <a href="https:llnl.gov" target="_blank">
-                <div className="flex">
-                  <Image
-                    src={media_lab_logo}
-                    // className=" rounded-lg"
-                    width={108}
-                    height={108}
-                  />
-                  <div className="pl-5 pr-2 py-4">
-                    <h2 className="text-lg font-bold">MIT Media Lab</h2>
-
-                    <h3 className=" text-md ">Undergraduate Researcher</h3>
-                    <h2 className="text-md">Nov 2023 - Feb 2024</h2>
-                    {/* <p className="">
-                      Developed predictive model for phenotypic measures and
-                      athletic performance using LASSO. Identified significant
-                      biomarkers through feature selection.
-                    </p> */}
-                  </div>
-                </div>
-              </a>
-            }
             gradientSize={500}
             gradientColor={gradientColor}
-          ></MagicCard>
+          >
+            <a href="https:llnl.gov" target="_blank">
+              <div className="flex">
+                <Image
+                  src={media_lab_logo}
+                  // className=" rounded-lg"
+                  width={108}
+                  height={108}
+                />
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-lg font-bold">MIT Media Lab</h2>
+
+                  <h3 className=" text-md ">Undergraduate Researcher</h3>
+                  <h2 className="text-md">Nov 2023 - Feb 2024</h2>
+                  {/* <p className="">
+                Developed predictive model for phenotypic measures and
+                athletic performance using LASSO. Identified significant
+                biomarkers through feature selection.
+              </p> */}
+                </div>
+              </div>
+            </a>
+          </MagicCard>
         </div>
       </section>
 
@@ -229,118 +226,109 @@ export default function Home() {
         <div className=" space-y-5">
           <MagicCard
             className="cursor-pointer flex-col shadow-sm bg-white"
-            children={
-              <a href="https://devpost.com/software/jabber-ai" target="_blank">
-                <div className="flex">
-                  <Image
-                    src={jabber_ai}
-                    // className=" rounded-lg"
-                    width={150}
-                    height={150}
-                  />
-                  <div className="pl-5 pr-2 py-4">
-                    <h2 className="text-2xl font-bold">Jabber AI</h2>
-                    <h3 className=" text-xl italic">
-                      AI project planning assistant
-                    </h3>
-                    <p className="">
-                      Used Hume AI's EVI to create voice interaction. GPT then
-                      processes user transcripts into organized notecards on a
-                      whiteboard space.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            }
             gradientSize={500}
             gradientColor={gradientColor}
-          ></MagicCard>
+          >
+            <a href="https://devpost.com/software/jabber-ai" target="_blank">
+              <div className="flex">
+                <Image
+                  src={jabber_ai}
+                  // className=" rounded-lg"
+                  width={150}
+                  height={150}
+                />
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-2xl font-bold">Jabber AI</h2>
+                  <h3 className=" text-xl italic">
+                    AI project planning assistant
+                  </h3>
+                  <p className="">
+                    Used Hume AI's EVI to create voice interaction. GPT then
+                    processes user transcripts into organized notecards on a
+                    whiteboard space.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </MagicCard>
 
           <MagicCard
             className="cursor-pointer flex-col shadow-sm bg-white"
-            children={
-              <a href="">
-                <div className=" flex">
-                  <Image
-                    src={journeygenie}
-                    className=""
-                    width={150}
-                    height={150}
-                  />
-                  <div className="pl-5 pr-2 py-4">
-                    <h2 className="text-2xl font-bold">JourneyGenie</h2>
-                    <h3 className=" text-xl italic">
-                      generate road trip itineraries and map directions{" "}
-                    </h3>
-                    <p className="">
-                      Used GPT to generate trip itineraries from user input.
-                      Displayed itinerary on map with Google Maps API.
-                      <span className=" text-blue-500"> *in progress</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            }
             gradientSize={500}
             gradientColor={gradientColor}
-          ></MagicCard>
+          >
+            <a href="">
+              <div className=" flex">
+                <Image
+                  src={journeygenie}
+                  className=""
+                  width={150}
+                  height={150}
+                />
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-2xl font-bold">JourneyGenie</h2>
+                  <h3 className=" text-xl italic">
+                    generate road trip itineraries and map directions{" "}
+                  </h3>
+                  <p className="">
+                    Used GPT to generate trip itineraries from user input.
+                    Displayed itinerary on map with Google Maps API.
+                    <span className=" text-blue-500"> *in progress</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </MagicCard>
 
           <MagicCard
             className="cursor-pointer flex-col shadow-sm bg-white"
-            children={
-              <a href="https://github.com/kevinzhu12/quick-def" target="_blank">
-                <div className="flex">
-                  <Image
-                    src={quick_def}
-                    className=" "
-                    width={150}
-                    height={150}
-                  />
-                  <div className="pl-5 pr-2 py-4">
-                    <h2 className="text-2xl font-bold">QuickDef</h2>
-                    <h3 className=" text-xl italic">
-                      chrome extension to explain text using GPT
-                    </h3>
-                    <p className="">
-                      A chrome extension that generates real-time explanations
-                      with a popup interface.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            }
             gradientSize={500}
             gradientColor={gradientColor}
-          ></MagicCard>
+          >
+            <a href="https://github.com/kevinzhu12/quick-def" target="_blank">
+              <div className="flex">
+                <Image src={quick_def} className=" " width={150} height={150} />
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-2xl font-bold">QuickDef</h2>
+                  <h3 className=" text-xl italic">
+                    chrome extension to explain text using GPT
+                  </h3>
+                  <p className="">
+                    A chrome extension that generates real-time explanations
+                    with a popup interface.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </MagicCard>
 
           <MagicCard
             className="cursor-pointer flex-col shadow-sm bg-white"
-            children={
-              <a href="https://quote-search3.vercel.app/" target="_blank">
-                <div className="flex">
-                  <Image
-                    src={quote_search}
-                    className=""
-                    width={150}
-                    height={150}
-                  />
-                  <div className="pl-5 pr-2 py-4">
-                    <h2 className="text-2xl font-bold">Quote Search</h2>
-                    <h3 className=" text-xl italic">
-                      efficient search engine for precise quotes
-                    </h3>
-                    <p className="">
-                      Used Fuse.js fuzzy-search library for approximate keyword
-                      matching. Built incremental streaming feature to update
-                      search results with each keystroke.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            }
             gradientSize={500}
             gradientColor={gradientColor}
-          ></MagicCard>
+          >
+            <a href="https://quote-search3.vercel.app/" target="_blank">
+              <div className="flex">
+                <Image
+                  src={quote_search}
+                  className=""
+                  width={150}
+                  height={150}
+                />
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-2xl font-bold">Quote Search</h2>
+                  <h3 className=" text-xl italic">
+                    efficient search engine for precise quotes
+                  </h3>
+                  <p className="">
+                    Used Fuse.js fuzzy-search library for approximate keyword
+                    matching. Built incremental streaming feature to update
+                    search results with each keystroke.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </MagicCard>
         </div>
       </section>
 
