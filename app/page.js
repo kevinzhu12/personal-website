@@ -25,7 +25,7 @@ export default function Home() {
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
   };
-  let gradientColor;
+  let gradientColor = "#F0F0F0";
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
