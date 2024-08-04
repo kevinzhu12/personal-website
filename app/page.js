@@ -17,7 +17,7 @@ import swiftly from "../public/swiftly.png";
 
 import { Sun, Moon } from "lucide-react";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -25,15 +25,16 @@ export default function Home() {
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
   };
-
   let gradientColor;
-  if (isDarkMode) {
-    document.documentElement.classList.add("dark");
-    gradientColor = "#333333";
-  } else {
-    document.documentElement.classList.remove("dark");
-    gradientColor = "#F0F0F0";
-  }
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add("dark");
+      gradientColor = "#333333";
+    } else {
+      document.documentElement.classList.remove("dark");
+      gradientColor = "#F0F0F0";
+    }
+  }, [isDarkMode]); // This effect will run whenever isDarkMode changes
 
   return (
     <main className="space-y-10 my-10 dark:text-white">
