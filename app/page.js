@@ -130,6 +130,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* PAST WORK */}
       <section>
         <h2 className="text-3xl font-bold">Past Work</h2>
 
@@ -140,7 +141,7 @@ export default function Home() {
             gradientSize={500}
             gradientColor={gradientColor}
           >
-            <a href="https:llnl.gov" target="_blank">
+            <a target="_blank">
               <div className="flex">
                 <Image
                   src={llnl}
@@ -169,7 +170,7 @@ export default function Home() {
             gradientSize={500}
             gradientColor={gradientColor}
           >
-            <a href="https://www.swiftly.com/" target="_blank">
+            <a target="_blank">
               <div className="flex">
                 <Image
                   src={swiftly}
@@ -196,7 +197,7 @@ export default function Home() {
             gradientSize={500}
             gradientColor={gradientColor}
           >
-            <a href="https:llnl.gov" target="_blank">
+            <a target="_blank">
               <div className="flex">
                 <Image
                   src={media_lab_logo}
@@ -260,7 +261,7 @@ export default function Home() {
             gradientSize={500}
             gradientColor={gradientColor}
           >
-            <a href="">
+            <a>
               <div className=" flex">
                 <Image
                   src={journeygenie}
