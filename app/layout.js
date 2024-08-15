@@ -15,6 +15,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Kevin Zhu",
   description: "My Website",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
