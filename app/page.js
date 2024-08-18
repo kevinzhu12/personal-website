@@ -14,6 +14,7 @@ import journeygenie from "../public/journeygenie.png";
 import llnl from "../public/llnl.png";
 import media_lab_logo from "../public/media_lab_logo.jpeg";
 import swiftly from "../public/swiftly.png";
+import anichat from "../public/anichat.png";
 
 import { Sun, Moon } from "lucide-react";
 
@@ -73,7 +74,7 @@ export default function Home() {
             >
               MIT
             </a>
-            . This summer I'm interning at{" "}
+            . Previously interned at{" "}
             <a
               href="https://www.llnl.gov/"
               className="text-blue-500 hover:underline"
@@ -136,6 +137,33 @@ export default function Home() {
 
         <Separator className="mb-5 mt-3" />
         <div className=" space-y-5">
+          <MagicCard
+            className="cursor-pointer shadow-sm bg-white"
+            gradientSize={500}
+            gradientColor={gradientColor}
+          >
+            <a target="_blank">
+              <div className="flex">
+                <Image
+                  src={anichat}
+                  // className=" rounded-lg"
+                  width={108}
+                  height={108}
+                />
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-lg font-bold">AniChat AI</h2>
+
+                  <h3 className=" text-md ">Software Engineer Intern</h3>
+                  <h2 className="text-md">Aug 2024 - Present</h2>
+                  {/* <p className="">
+                Developed predictive model for phenotypic measures and
+                athletic performance using LASSO. Identified significant
+                biomarkers through feature selection.
+              </p> */}
+                </div>
+              </div>
+            </a>
+          </MagicCard>
           <MagicCard
             className="cursor-pointer shadow-sm bg-white"
             gradientSize={500}
