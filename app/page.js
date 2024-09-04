@@ -154,7 +154,7 @@ export default function Home() {
                   <h2 className="text-lg font-bold">AniChat AI</h2>
 
                   <h3 className=" text-md ">Software Engineer Intern</h3>
-                  <h2 className="text-md">Aug 2024 - Present</h2>
+                  <h2 className="text-md">Aug 2021 - Present</h2>
                   {/* <p className="">
                 Developed predictive model for phenotypic measures and
                 athletic performance using LASSO. Identified significant
@@ -237,7 +237,7 @@ export default function Home() {
                   <h2 className="text-lg font-bold">MIT Media Lab</h2>
 
                   <h3 className=" text-md ">Undergraduate Researcher</h3>
-                  <h2 className="text-md">Nov 2023 - Feb 2024</h2>
+                  <h2 className="text-md">Nov 2023 - Apr 2024</h2>
                   {/* <p className="">
                 Developed predictive model for phenotypic measures and
                 athletic performance using LASSO. Identified significant
