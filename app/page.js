@@ -15,6 +15,7 @@ import llnl from "../public/llnl.png";
 import media_lab_logo from "../public/media_lab_logo.jpeg";
 import swiftly from "../public/swiftly.png";
 import anichat from "../public/anichat.png";
+import circa from "../public/circa.png";
 
 import { Sun, Moon } from "lucide-react";
 
@@ -153,8 +154,8 @@ export default function Home() {
                 <div className="pl-5 pr-2 py-4">
                   <h2 className="text-lg font-bold">AniChat AI</h2>
 
-                  <h3 className=" text-md ">Software Engineer Intern</h3>
-                  <h2 className="text-md">Aug 2021 - Present</h2>
+                  <h3 className=" text-md ">Software Engineer</h3>
+                  <h2 className="text-md">Jan 2024 - Present</h2>
                   {/* <p className="">
                 Developed predictive model for phenotypic measures and
                 athletic performance using LASSO. Identified significant
@@ -256,6 +257,39 @@ export default function Home() {
 
         <Separator className="mb-5 mt-3" />
         <div className=" space-y-5">
+          <MagicCard
+            className="cursor-pointer flex-col shadow-sm bg-white"
+            gradientSize={500}
+            gradientColor={gradientColor}
+          >
+            <a
+              href="https://github.com/orgs/CircaLearn/repositories"
+              target="_blank"
+            >
+              <div className="flex">
+                <Image
+                  src={circa}
+                  // className=" rounded-lg"
+                  width={150}
+                  height={150}
+                />
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-2xl font-bold">Circa</h2>
+                  <h3 className=" text-xl italic">
+                    LLM-powered flashcard learning platform
+                  </h3>
+                  <p className="">
+                    Currently building Circa with{" "}
+                    <a href="https://hectorastrom.com/" target="_blank">
+                      Hector Astrom
+                    </a>
+                    !
+                  </p>
+                </div>
+              </div>
+            </a>
+          </MagicCard>
+
           <MagicCard
             className="cursor-pointer flex-col shadow-sm bg-white"
             gradientSize={500}
