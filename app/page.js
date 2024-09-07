@@ -280,7 +280,11 @@ export default function Home() {
                   </h3>
                   <p className="">
                     Currently building Circa with{" "}
-                    <a href="https://hectorastrom.com/" target="_blank">
+                    <a
+                      href="https://hectorastrom.com/"
+                      target="_blank"
+                      className="text-blue-500 hover:underline"
+                    >
                       Hector Astrom
                     </a>
                     !
