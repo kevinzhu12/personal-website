@@ -66,8 +66,61 @@ export default function Home() {
             height={150}
           />
           <h3 className="text-3xl font-bold pt-3">Hi, I'm Kevin. 👋</h3>
-          <p className=" min-h-full text-xs leading-8 md:text-xl">
-            Currently studying computer science and math at{" "}
+          <div className=" min-h-full text-xs leading-8 md:text-xl">
+            <ul className="list-disc">
+              <li>
+                Studying computer science and math at{" "}
+                <a
+                  href="https://www.mit.edu"
+                  className="text-blue-500 hover:underline"
+                  target="_blank"
+                >
+                  MIT
+                </a>
+              </li>
+              <li>
+                Currently building{" "}
+                <a
+                  href="https://home.withmantis.com/"
+                  className="text-blue-500 hover:underline"
+                  target="_blank"
+                >
+                  Mantis
+                </a>{" "}
+                and doing AI research at the Kellis Lab (CSAIL)
+              </li>
+              <li>
+                Organizing{" "}
+                <a
+                  href="https://hackmit.org/"
+                  className="text-blue-500 hover:underline"
+                  target="_blank"
+                >
+                  HackMIT
+                </a>
+                !
+              </li>
+              <li>Previously built AI companions at Tomo AI</li>
+              <li>
+                ML research at{" "}
+                <a
+                  href="https://www.llnl.gov/"
+                  className="text-blue-500 hover:underline"
+                  target="_blank"
+                >
+                  Lawrence Livermore National Lab
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://www.media.mit.edu/"
+                  className="text-blue-500 hover:underline"
+                  target="_blank"
+                >
+                  MIT Media Lab
+                </a>
+              </li>
+            </ul>
+            {/* Currently studying computer science and math at{" "}
             <a
               href="https://www.mit.edu"
               className="text-blue-500 hover:underline"
@@ -75,16 +128,17 @@ export default function Home() {
             >
               MIT
             </a>
-            . Previously interned at{" "}
+            . Currently building Mantis and doing AI research at the Kellis Lab
+            in MIT CSAIL. I also help organize HackMIT. Previously built AI
+            companions at Tomo AI and did ML research at{" "}
             <a
               href="https://www.llnl.gov/"
               className="text-blue-500 hover:underline"
               target="_blank"
             >
               Lawrence Livermore National Lab
-            </a>{" "}
-            as a Data Science/ML intern with the computational biology group.
-            Previously did ML research at the{" "}
+            </a>
+            and the
             <a
               href="https://www.media.mit.edu/"
               className="text-blue-500 hover:underline"
@@ -92,8 +146,8 @@ export default function Home() {
             >
               MIT Media Lab
             </a>
-            .
-          </p>
+            . */}
+          </div>
         </div>
 
         <div className="flex flex-row max-w-48 justify-between mt-4">
@@ -122,7 +176,7 @@ export default function Home() {
             <FontAwesomeIcon icon={faEnvelope} className="w-6 h-6" size="2x" />
           </a>
           <a
-            href="/KevinZhuResume8_6.pdf"
+            href="/kevinzhu_resume.pdf"
             target="_blank"
             className="text-black pl-1 hover:text-gray-700  dark:text-white dark:hover:text-gray-300"
             aria-label="Resume"
@@ -152,7 +206,7 @@ export default function Home() {
                   height={108}
                 />
                 <div className="pl-5 pr-2 py-4">
-                  <h2 className="text-lg font-bold">AniChat AI</h2>
+                  <h2 className="text-lg font-bold">Tomo AI</h2>
 
                   <h3 className=" text-md ">Software Engineer</h3>
                   <h2 className="text-md">Jan 2024 - Present</h2>
@@ -450,7 +504,7 @@ export default function Home() {
             Email
           </a>
           <a
-            href="/KevinZhuResume8_6.pdf"
+            href="/kevinzhu_resume.pdf"
             target="_blank"
             className="dark:text-gray-300"
           >
