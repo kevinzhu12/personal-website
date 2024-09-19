@@ -16,6 +16,8 @@ import media_lab_logo from "../public/media_lab_logo.jpeg";
 import swiftly from "../public/swiftly.png";
 import anichat from "../public/anichat.png";
 import circa from "../public/circa.png";
+import mantis from "../public/mantis.png";
+import csail from "../public/csail.jpg";
 
 import { Sun, Moon } from "lucide-react";
 
@@ -200,6 +202,29 @@ export default function Home() {
             <a target="_blank">
               <div className="flex">
                 <Image
+                  src={csail}
+                  // className=" rounded-lg"
+                  width={108}
+                  height={108}
+                />
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-lg font-bold">MIT CSAIL - Kellis Lab</h2>
+
+                  <h3 className=" text-md ">Researcher</h3>
+                  <h2 className="text-md">Sep 2024 - Present</h2>
+                </div>
+              </div>
+            </a>
+          </MagicCard>
+
+          <MagicCard
+            className="cursor-pointer shadow-sm bg-white"
+            gradientSize={500}
+            gradientColor={gradientColor}
+          >
+            <a target="_blank">
+              <div className="flex">
+                <Image
                   src={anichat}
                   // className=" rounded-lg"
                   width={108}
@@ -291,8 +316,8 @@ export default function Home() {
                 <div className="pl-5 pr-2 py-4">
                   <h2 className="text-lg font-bold">MIT Media Lab</h2>
 
-                  <h3 className=" text-md ">Undergraduate Researcher</h3>
-                  <h2 className="text-md">Nov 2023 - Apr 2024</h2>
+                  <h3 className=" text-md ">Researcher</h3>
+                  <h2 className="text-md">Nov 2023 - Feb 2024</h2>
                   {/* <p className="">
                 Developed predictive model for phenotypic measures and
                 athletic performance using LASSO. Identified significant
@@ -305,12 +330,53 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PROJECTS */}
+      {/* PROJECTS/RESEARCH */}
       <section className="">
-        <h2 className="text-3xl font-bold">Projects</h2>
+        <h2 className="text-3xl font-bold">Projects/Research</h2>
 
         <Separator className="mb-5 mt-3" />
         <div className=" space-y-5">
+          <MagicCard
+            className="cursor-pointer flex-col shadow-sm bg-white"
+            gradientSize={500}
+            gradientColor={gradientColor}
+          >
+            <a href="https://home.withmantis.com/" target="_blank">
+              <div className="flex">
+                <Image
+                  src={mantis}
+                  // className=" rounded-lg"
+                  width={150}
+                  height={150}
+                />
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-2xl font-bold">Mantis</h2>
+                  <h3 className=" text-xl italic">
+                    Data visualization and cognitive cartography tool using LLMs
+                    to visualize and interact with textual data
+                  </h3>
+                  <p className="">
+                    Working on Mantis through{" "}
+                    <a
+                      href="https://compbio.mit.edu/index.html"
+                      target="_blank"
+                      className="text-blue-500 hover:underline"
+                    >
+                      Kellis Lab
+                    </a>{" "}
+                    at{" "}
+                    <a
+                      href="https://www.csail.mit.edu/"
+                      target="_blank"
+                      className="text-blue-500 hover:underline"
+                    >
+                      MIT CSAIL
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </MagicCard>
           <MagicCard
             className="cursor-pointer flex-col shadow-sm bg-white"
             gradientSize={500}
