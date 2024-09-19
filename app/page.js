@@ -352,11 +352,7 @@ export default function Home() {
                 <div className="pl-5 pr-2 py-4">
                   <h2 className="text-2xl font-bold">Mantis</h2>
                   <h3 className=" text-xl italic">
-                    Data visualization and cognitive cartography tool using LLMs
-                    to visualize and interact with textual data
-                  </h3>
-                  <p className="">
-                    Working on Mantis through{" "}
+                    Working on Mantis with{" "}
                     <a
                       href="https://compbio.mit.edu/index.html"
                       target="_blank"
@@ -372,6 +368,10 @@ export default function Home() {
                     >
                       MIT CSAIL
                     </a>
+                  </h3>
+                  <p className="">
+                    Data visualization and cognitive cartography tool using LLMs
+                    to visualize and interact with textual data
                   </p>
                 </div>
               </div>
