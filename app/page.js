@@ -42,22 +42,54 @@ export default function Home() {
     console.log(isDarkMode);
   };
 
+  const scrollToProjects = () => {
+    const projectsSection = document.getElementById("projects-section");
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToPastWork = () => {
+    const pastWorkSection = document.getElementById("past-work-section");
+    if (pastWorkSection) {
+      pastWorkSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <main className="space-y-10 my-10 dark:text-white">
-      {/* DARK MODE TOGGLE */}
-      <div className="">
-        {isDarkMode ? (
-          <Sun
-            onClick={toggleTheme}
-            className="cursor-pointer w-8 h-8 hover:text-gray-300"
-          />
-        ) : (
+      {/* DARK MODE TOGGLE AND NAVIGATION LINKS */}
+      <div className="flex items-center space-x-6">
+        <button
+          onClick={toggleTheme}
+          className="relative focus:outline-none"
+          aria-label="Toggle dark mode"
+        >
           <Moon
-            onClick={toggleTheme}
-            className="cursor-pointer w-8 h-8 hover:text-gray-700"
+            className={`w-8 h-8 text-blue-300 transition-opacity duration-300 ${
+              isDarkMode ? "opacity-0" : "opacity-100"
+            }`}
           />
-        )}
+          <Sun
+            className={`w-8 h-8 text-yellow-500 absolute top-0 left-0 transition-opacity duration-300 ${
+              isDarkMode ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        </button>
+        <button
+          onClick={scrollToPastWork}
+          className="font-bold text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-300 focus:outline-none"
+        >
+          Past Work
+        </button>
+        <button
+          onClick={scrollToProjects}
+          className="font-bold text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-300 focus:outline-none"
+        >
+          Projects
+        </button>
       </div>
+
       {/* ABOUT ME */}
       <section className="">
         <div className="flex flex-col space-y-2">
@@ -189,7 +221,7 @@ export default function Home() {
       </section>
 
       {/* PAST WORK */}
-      <section>
+      <section id="past-work-section">
         <h2 className="text-3xl font-bold">Past Work</h2>
 
         <Separator className="mb-5 mt-3" />
@@ -331,11 +363,32 @@ export default function Home() {
       </section>
 
       {/* PROJECTS/RESEARCH */}
-      <section className="">
+      <section id="projects-section">
         <h2 className="text-3xl font-bold">Projects/Research</h2>
 
         <Separator className="mb-5 mt-3" />
         <div className=" space-y-5">
+          <MagicCard
+            className="cursor-pointer flex-col shadow-sm bg-white"
+            gradientSize={500}
+            gradientColor={gradientColor}
+          >
+            <a
+              href="https://perplexity-clone-kappa.vercel.app/"
+              target="_blank"
+            >
+              <div className="flex">
+                {/* <Image src={mantis} width={150} height={150} /> */}
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-2xl font-bold">PerplexiClone</h2>
+                  <h3 className=" text-xl italic">AI-powered search engine</h3>
+                  <p className="">
+                    Built a Perplexity clone using Exa and OpenAI.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </MagicCard>
           <MagicCard
             className="cursor-pointer flex-col shadow-sm bg-white"
             gradientSize={500}
@@ -387,12 +440,12 @@ export default function Home() {
               target="_blank"
             >
               <div className="flex">
-                <Image
+                {/* <Image
                   src={circa}
                   // className=" rounded-lg"
                   width={150}
                   height={150}
-                />
+                /> */}
                 <div className="pl-5 pr-2 py-4">
                   <h2 className="text-2xl font-bold">Circa</h2>
                   <h3 className=" text-xl italic">
