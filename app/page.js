@@ -210,7 +210,7 @@ export default function Home() {
             <FontAwesomeIcon icon={faEnvelope} className="w-6 h-6" size="2x" />
           </a>
           <a
-            href="/kevinzhu_resume.pdf"
+            href="/Kevin_Zhu_Resume.pdf"
             target="_blank"
             className="text-black pl-1 hover:text-gray-700  dark:text-white dark:hover:text-gray-300"
             aria-label="Resume"
@@ -623,7 +623,7 @@ export default function Home() {
             Email
           </a>
           <a
-            href="/kevinzhu_resume.pdf"
+            href="/Kevin_Zhu_Resume.pdf"
             target="_blank"
             className="dark:text-gray-300"
           >
