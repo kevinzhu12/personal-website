@@ -209,14 +209,14 @@ export default function Home() {
           >
             <FontAwesomeIcon icon={faEnvelope} className="w-6 h-6" size="2x" />
           </a>
-          <a
+          {/* <a
             href="/Kevin_Zhu_Resume.pdf"
             target="_blank"
             className="text-black pl-1 hover:text-gray-700  dark:text-white dark:hover:text-gray-300"
             aria-label="Resume"
           >
             <FontAwesomeIcon icon={faFile} className="w-5 h-6" size="2x" />
-          </a>
+          </a> */}
         </div>
       </section>
 
@@ -622,13 +622,13 @@ export default function Home() {
           >
             Email
           </a>
-          <a
+          {/* <a
             href="/Kevin_Zhu_Resume.pdf"
             target="_blank"
             className="dark:text-gray-300"
           >
             Resume
-          </a>
+          </a> */}
         </div>
       </div>
     </main>
