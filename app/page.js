@@ -113,7 +113,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                Investing in early-stage startups @
+                Investing in early-stage startups @{" "}
                 <a
                   href="https://www.dormroomfund.com/"
                   className="text-blue-500 hover:underline"
