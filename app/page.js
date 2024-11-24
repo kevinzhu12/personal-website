@@ -113,6 +113,16 @@ export default function Home() {
                 </a>
               </li>
               <li>
+                Investing in early-stage startups @
+                <a
+                  href="https://www.dormroomfund.com/"
+                  className="text-blue-500 hover:underline"
+                  target="_blank"
+                >
+                  Dorm Room Fund
+                </a>
+              </li>
+              <li>
                 Currently building{" "}
                 <a
                   href="https://home.withmantis.com/"
