@@ -18,6 +18,7 @@ import anichat from "../public/anichat.png";
 import circa from "../public/circa.png";
 import mantis from "../public/mantis.png";
 import csail from "../public/csail.jpg";
+import scale_ai from "../public/scale_ai.jpg";
 
 import { Sun, Moon } from "lucide-react";
 
@@ -123,17 +124,6 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                Currently building{" "}
-                <a
-                  href="https://home.withmantis.com/"
-                  className="text-blue-500 hover:underline"
-                  target="_blank"
-                >
-                  Mantis
-                </a>{" "}
-                and doing AI research at the Kellis Lab (CSAIL)
-              </li>
-              <li>
                 Organizing{" "}
                 <a
                   href="https://hackmit.org/"
@@ -236,6 +226,31 @@ export default function Home() {
 
         <Separator className="mb-5 mt-3" />
         <div className=" space-y-5">
+          <MagicCard
+            className="cursor-pointer shadow-sm bg-white"
+            gradientSize={500}
+            gradientColor={gradientColor}
+          >
+            <a target="_blank">
+              <div className="flex">
+                <Image
+                  src={scale_ai}
+                  // className=" rounded-lg"
+                  width={108}
+                  height={108}
+                />
+                <div className="pl-5 pr-2 py-4">
+                  <h2 className="text-lg font-bold">Scale AI</h2>
+
+                  <h3 className=" text-md ">
+                    Incoming Software Engineer Intern
+                  </h3>
+                  <h2 className="text-md">May 2025 - Aug 2025</h2>
+                </div>
+              </div>
+            </a>
+          </MagicCard>
+
           <MagicCard
             className="cursor-pointer shadow-sm bg-white"
             gradientSize={500}
