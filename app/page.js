@@ -18,7 +18,7 @@ import anichat from "../public/anichat.png";
 import circa from "../public/circa.png";
 import mantis from "../public/mantis.png";
 import csail from "../public/csail.jpg";
-import scale_ai from "../public/scale_ai.jpg";
+import scale_ai from "../public/scale_ai.png";
 
 import { Sun, Moon } from "lucide-react";
 
