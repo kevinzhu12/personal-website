@@ -226,7 +226,7 @@ export default function Home() {
 
         <Separator className="mb-5 mt-3" />
         <div className=" space-y-5">
-          <MagicCard
+          {/* <MagicCard
             className="cursor-pointer shadow-sm bg-white"
             gradientSize={500}
             gradientColor={gradientColor}
@@ -249,7 +249,7 @@ export default function Home() {
                 </div>
               </div>
             </a>
-          </MagicCard>
+          </MagicCard> */}
 
           <MagicCard
             className="cursor-pointer shadow-sm bg-white"
