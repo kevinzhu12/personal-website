@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
+  darkMode: "class",
   content: [
     "./pages/**/*.{js,jsx}",
     "./components/**/*.{js,jsx}",
@@ -17,6 +17,12 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        reckless: ["Reckless", "serif"],
+        sans: ["Inter", "sans-serif"],
+        meta: ["FF Meta Serif Pro", "serif"],
+        cal: ["Cal Sans", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -42,6 +48,8 @@ module.exports = {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+          blue: "#486581",
+          hover: "#829AB1",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -50,6 +58,24 @@ module.exports = {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        cream: {
+          50: "#F5F1E8",
+          100: "#EDE7DB",
+          200: "#E5DDD0",
+          300: "#D8CFC0",
+        },
+        coffee: {
+          400: "#8C7355",
+          500: "#6B563F",
+          600: "#4A3B2B",
+        },
+        dark: {
+          bg: "#1A1A1A",
+          card: "#2A2A2A",
+          text: "#E5E5E5",
+          muted: "#A3A3A3",
+          hover: "#404040",
         },
       },
       borderRadius: {
