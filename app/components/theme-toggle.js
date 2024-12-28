@@ -38,12 +38,12 @@ export default function ThemeToggle() {
       aria-label="Toggle dark mode"
     >
       <Sun
-        className={`w-5 h-5 text-coffee-500 dark:text-dark-text transition-all duration-300 ${
+        className={`w-5 h-5 text-coffee-500 dark:text-dark-text transition-all duration-750 ${
           isDark ? "opacity-0 scale-0" : "opacity-100 scale-100"
         }`}
       />
       <Moon
-        className={`w-5 h-5 text-dark-text absolute top-2 left-2 transition-all duration-300 ${
+        className={`w-5 h-5 text-dark-text absolute top-2 left-2 transition-all duration-750 ${
           isDark ? "opacity-100 scale-100" : "opacity-0 scale-0"
         }`}
       />

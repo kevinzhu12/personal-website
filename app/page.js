@@ -55,7 +55,7 @@ export default function Home() {
             >
               HackMIT
             </a>
-            . Next summer, I'll be interning at{" "}
+            . This summer, I'll be interning at{" "}
             <a
               href="https://scale.com/"
               className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
@@ -63,7 +63,7 @@ export default function Home() {
             >
               Scale AI
             </a>{" "}
-            in SF, working on the GenAI Data Engine team!
+            on the GenAI Data Engine team.
           </p>
         </div>
 
