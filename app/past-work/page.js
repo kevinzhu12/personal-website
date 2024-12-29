@@ -49,14 +49,14 @@ export default function PastWork() {
             className="cursor-pointer flex-col shadow-sm bg-white hover:bg-cream-50 
               dark:bg-dark-card dark:hover:bg-dark-hover transition-colors duration-200"
           >
-            <a target="_blank">
+            <a /* target="_blank" */>
               <div className="flex">
-                <Image
+                {/* <Image
                   src={csail}
                   width={108}
                   height={108}
                   className="object-cover"
-                />
+                /> */}
                 <div className="pl-5 pr-2 py-4">
                   <h2 className="text-lg font-bold">MIT CSAIL - Kellis Lab</h2>
                   <h3 className="text-md italic">Researcher</h3>
@@ -70,13 +70,17 @@ export default function PastWork() {
             className="cursor-pointer flex-col shadow-sm bg-white hover:bg-cream-50 
               dark:bg-dark-card dark:hover:bg-dark-hover transition-colors duration-200"
           >
-            <a target="_blank">
+            <a /* target="_blank" */>
               <div className="flex">
-                <Image src={anichat} width={108} height={108} />
+                {/* <Image 
+                  src={anichat} 
+                  width={108} 
+                  height={108} 
+                /> */}
                 <div className="pl-5 pr-2 py-4">
                   <h2 className="text-lg font-bold">Tomo AI</h2>
                   <h3 className="text-md italic">Software Engineer</h3>
-                  <p className="text-sm">Jan 2024 - Present</p>
+                  <p className="text-sm">Jan - Sep 2024</p>
                 </div>
               </div>
             </a>
@@ -85,9 +89,13 @@ export default function PastWork() {
             className="cursor-pointer flex-col shadow-sm bg-white hover:bg-cream-50 
               dark:bg-dark-card dark:hover:bg-dark-hover transition-colors duration-200"
           >
-            <a target="_blank">
+            <a /* target="_blank" */>
               <div className="flex">
-                <Image src={llnl} width={108} height={108} />
+                {/* <Image 
+                  src={llnl} 
+                  width={108} 
+                  height={108} 
+                /> */}
                 <div className="pl-5 pr-2 py-4">
                   <h2 className="text-lg font-bold">
                     Lawrence Livermore National Laboratory
@@ -102,9 +110,13 @@ export default function PastWork() {
             className="cursor-pointer flex-col shadow-sm bg-white hover:bg-cream-50 
               dark:bg-dark-card dark:hover:bg-dark-hover transition-colors duration-200"
           >
-            <a target="_blank">
+            <a /* target="_blank" */>
               <div className="flex">
-                <Image src={swiftly} width={108} height={108} />
+                {/* <Image 
+                  src={swiftly} 
+                  width={108} 
+                  height={108} 
+                /> */}
                 <div className="pl-5 pr-2 py-4">
                   <h2 className="text-lg font-bold">Swiftly</h2>
                   <h3 className="text-md italic">Tech Consultant</h3>
@@ -117,9 +129,13 @@ export default function PastWork() {
             className="cursor-pointer flex-col shadow-sm bg-white hover:bg-cream-50 
               dark:bg-dark-card dark:hover:bg-dark-hover transition-colors duration-200"
           >
-            <a target="_blank">
+            <a /* target="_blank" */>
               <div className="flex">
-                <Image src={media_lab_logo} width={108} height={108} />
+                {/* <Image 
+                  src={media_lab_logo} 
+                  width={108} 
+                  height={108} 
+                /> */}
                 <div className="pl-5 pr-2 py-4">
                   <h2 className="text-lg font-bold">MIT Media Lab</h2>
                   <h3 className="text-md italic">Researcher</h3>
