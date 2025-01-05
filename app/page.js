@@ -55,6 +55,14 @@ export default function Home() {
             >
               HackMIT
             </a>
+            . Right now, I'm building trading platforms at{" "}
+            <a
+              href="https://voloridge.com/"
+              className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
+              target="_blank"
+            >
+              Voloridge
+            </a>
             . This summer, I'll be interning at{" "}
             <a
               href="https://scale.com/"
