@@ -41,109 +41,93 @@ export default function PastWork() {
           <h2 className="text-4xl font-cal text-coffee-600 dark:text-white tracking-tight">
             Past Work
           </h2>
-          <Separator className="bg-cream-200" />
+          <Separator className="bg-coffee-400 dark:bg-dark-hover" />
         </div>
 
         <div className="space-y-5">
-          <MagicCardWrapper
-            className="cursor-pointer flex-col shadow-sm bg-white hover:bg-cream-50 
-              dark:bg-dark-card dark:hover:bg-dark-hover transition-colors duration-200"
-          >
-            <a /* target="_blank" */>
-              <div className="flex">
-                {/* <Image
-                  src={csail}
-                  width={108}
-                  height={108}
-                  className="object-cover"
-                /> */}
-                <div className="pl-5 pr-2 py-4">
-                  <h2 className="text-lg font-bold">MIT CSAIL - Kellis Lab</h2>
-                  <h3 className="text-md italic">Researcher</h3>
-                  <p className="text-sm">Sep 2024 - Present</p>
-                </div>
-              </div>
-            </a>
-          </MagicCardWrapper>
+          <div className="flex justify-between items-start">
+            <div className="pr-2 py-3">
+              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                Voloridge Investment Management
+              </h2>
+              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                Trading Engineer Intern
+              </h3>
+            </div>
+            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
+              Jan 2025
+            </p>
+          </div>
 
-          <MagicCardWrapper
-            className="cursor-pointer flex-col shadow-sm bg-white hover:bg-cream-50 
-              dark:bg-dark-card dark:hover:bg-dark-hover transition-colors duration-200"
-          >
-            <a /* target="_blank" */>
-              <div className="flex">
-                {/* <Image 
-                  src={anichat} 
-                  width={108} 
-                  height={108} 
-                /> */}
-                <div className="pl-5 pr-2 py-4">
-                  <h2 className="text-lg font-bold">Tomo AI</h2>
-                  <h3 className="text-md italic">Software Engineer</h3>
-                  <p className="text-sm">Jan - Sep 2024</p>
-                </div>
-              </div>
-            </a>
-          </MagicCardWrapper>
-          <MagicCardWrapper
-            className="cursor-pointer flex-col shadow-sm bg-white hover:bg-cream-50 
-              dark:bg-dark-card dark:hover:bg-dark-hover transition-colors duration-200"
-          >
-            <a /* target="_blank" */>
-              <div className="flex">
-                {/* <Image 
-                  src={llnl} 
-                  width={108} 
-                  height={108} 
-                /> */}
-                <div className="pl-5 pr-2 py-4">
-                  <h2 className="text-lg font-bold">
-                    Lawrence Livermore National Laboratory
-                  </h2>
-                  <h3 className="text-md italic">Data Science Intern</h3>
-                  <p className="text-sm">May - Aug 2024</p>
-                </div>
-              </div>
-            </a>
-          </MagicCardWrapper>
-          <MagicCardWrapper
-            className="cursor-pointer flex-col shadow-sm bg-white hover:bg-cream-50 
-              dark:bg-dark-card dark:hover:bg-dark-hover transition-colors duration-200"
-          >
-            <a /* target="_blank" */>
-              <div className="flex">
-                {/* <Image 
-                  src={swiftly} 
-                  width={108} 
-                  height={108} 
-                /> */}
-                <div className="pl-5 pr-2 py-4">
-                  <h2 className="text-lg font-bold">Swiftly</h2>
-                  <h3 className="text-md italic">Tech Consultant</h3>
-                  <p className="text-sm">Jan - May 2024</p>
-                </div>
-              </div>
-            </a>
-          </MagicCardWrapper>
-          <MagicCardWrapper
-            className="cursor-pointer flex-col shadow-sm bg-white hover:bg-cream-50 
-              dark:bg-dark-card dark:hover:bg-dark-hover transition-colors duration-200"
-          >
-            <a /* target="_blank" */>
-              <div className="flex">
-                {/* <Image 
-                  src={media_lab_logo} 
-                  width={108} 
-                  height={108} 
-                /> */}
-                <div className="pl-5 pr-2 py-4">
-                  <h2 className="text-lg font-bold">MIT Media Lab</h2>
-                  <h3 className="text-md italic">Researcher</h3>
-                  <p className="text-sm">Nov 2023 - Feb 2024</p>
-                </div>
-              </div>
-            </a>
-          </MagicCardWrapper>
+          <div className="flex justify-between items-start">
+            <div className="pr-2 py-3">
+              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                MIT CSAIL - Kellis Lab
+              </h2>
+              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                Researcher
+              </h3>
+            </div>
+            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
+              Sep 2024 - Present
+            </p>
+          </div>
+
+          <div className="flex justify-between items-start">
+            <div className="pr-2 py-3">
+              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                Tomo AI
+              </h2>
+              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                Software Engineer
+              </h3>
+            </div>
+            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
+              Jan - Sep 2024
+            </p>
+          </div>
+
+          <div className="flex justify-between items-start">
+            <div className="pr-2 py-3">
+              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                Lawrence Livermore National Laboratory
+              </h2>
+              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                Data Science Intern
+              </h3>
+            </div>
+            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
+              May - Aug 2024
+            </p>
+          </div>
+
+          <div className="flex justify-between items-start">
+            <div className="pr-2 py-3">
+              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                Swiftly
+              </h2>
+              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                Tech Consultant
+              </h3>
+            </div>
+            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
+              Jan - May 2024
+            </p>
+          </div>
+
+          <div className="flex justify-between items-start">
+            <div className="pr-2 py-3">
+              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                MIT Media Lab
+              </h2>
+              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                Researcher
+              </h3>
+            </div>
+            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
+              Nov 2023 - Feb 2024
+            </p>
+          </div>
         </div>
       </section>
       <SharedFooter />

@@ -18,10 +18,13 @@ module.exports = {
     },
     extend: {
       fontFamily: {
+        sohne: ["Sohne", "sans-serif"],
+        satoshi: ["Satoshi", "sans-serif"],
         reckless: ["Reckless", "serif"],
         sans: ["Inter", "sans-serif"],
         meta: ["FF Meta Serif Pro", "serif"],
         cal: ["Cal Sans", "sans-serif"],
+        geist: ["Geist", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
