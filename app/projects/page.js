@@ -37,7 +37,7 @@ export default function Projects() {
     <main>
       <section id="projects-section" className="space-y-5">
         <div className="space-y-3">
-          <h2 className="text-4xl font-cal text-coffee-600 dark:text-white tracking-tight">
+          <h2 className="text-4xl font-garamond text-coffee-600 dark:text-white tracking-tight">
             Projects
           </h2>
           <Separator className="bg-coffee-400 dark:bg-dark-hover" />

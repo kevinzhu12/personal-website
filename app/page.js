@@ -27,10 +27,10 @@ export default function Home() {
       {/* ABOUT ME */}
       <section className="space-y-5">
         <div className="space-y-3">
-          <h1 className="text-4xl font-cal text-coffee-600 dark:text-dark-text tracking-tight">
+          <h1 className="text-4xl font-garamond text-coffee-600 dark:text-dark-text tracking-tight">
             Hi, I'm Kevin. 👋
           </h1>
-          <p className="text-lg font-cal text-coffee-600 dark:text-dark-text leading-relaxed">
+          <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
             I'm studying CS and math at{" "}
             <a
               href="https://www.mit.edu"
@@ -63,7 +63,8 @@ export default function Home() {
             >
               Voloridge Investment Management
             </a>
-            . This summer, I'll be interning at{" "}
+            .
+            {/* This summer, I'll be interning at{" "}
             <a
               href="https://scale.com/"
               className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
@@ -71,7 +72,7 @@ export default function Home() {
             >
               Scale AI
             </a>{" "}
-            on the GenAI Data Engine team.
+            on the GenAI Data Engine team. */}
           </p>
         </div>
 

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap");
+
 @font-face {
   font-family: "Satoshi";
   src: url("/fonts/Satoshi-Regular.woff2") format("woff2");
@@ -104,7 +106,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-cream-50 text-coffee-400 font-geist transition-colors duration-200
+    @apply bg-cream-50 text-coffee-400 font-garamond transition-colors duration-200
     dark:bg-dark-bg dark:text-dark-text;
     background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.4' numOctaves='5' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.28'/%3E%3C/svg%3E"),
       linear-gradient(to bottom, #f5f1e8, #f5f1e8);
@@ -124,7 +126,7 @@
   h4,
   h5,
   h6 {
-    @apply font-geist;
+    @apply font-garamond;
   }
 
   .magic-card {

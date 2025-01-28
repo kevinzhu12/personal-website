@@ -18,6 +18,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
+        garamond: ["EB Garamond", "Garamond", "serif"],
         sohne: ["Sohne", "sans-serif"],
         satoshi: ["Satoshi", "sans-serif"],
         reckless: ["Reckless", "serif"],

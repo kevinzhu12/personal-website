@@ -9,7 +9,7 @@ export default function NavLink({ href, children }) {
   return (
     <Link
       href={href}
-      className={`text-base font-cal text-coffee-400 hover:text-coffee-600 dark:text-white dark:hover:text-dark-muted hover:underline underline-offset-4 transition-colors ${
+      className={`text-base font-garamond text-coffee-400 hover:text-coffee-600 dark:text-white dark:hover:text-dark-muted hover:underline underline-offset-4 transition-colors ${
         isActive ? "underline text-coffee-600 dark:text-white" : ""
       }`}
     >
