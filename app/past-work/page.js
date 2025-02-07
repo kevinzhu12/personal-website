@@ -48,6 +48,19 @@ export default function PastWork() {
           <div className="flex justify-between items-start">
             <div className="pr-2 py-3">
               <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                Scale AI
+              </h2>
+              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                Incoming Software Engineer Intern
+              </h3>
+            </div>
+            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
+              Summer 2025
+            </p>
+          </div>
+          <div className="flex justify-between items-start">
+            <div className="pr-2 py-3">
+              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
                 Voloridge Investment Management
               </h2>
               <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
@@ -55,7 +68,7 @@ export default function PastWork() {
               </h3>
             </div>
             <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
-              Jan 2025
+              Jan - Feb 2025
             </p>
           </div>
 
