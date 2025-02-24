@@ -47,6 +47,35 @@ export default function Projects() {
           <div className="flex">
             <div className="pr-2 py-3">
               <a
+                href="https://devpost.com/software/mirror-lmd54a"
+                target="_blank"
+                className="hover:opacity-80"
+              >
+                <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                  Mirror
+                </h2>
+              </a>
+              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                personal assistant on smart glasses (Mistral AI Prize)
+              </h3>
+              <p className="text-sm text-[#1A1A1A] dark:text-white mt-1">
+                Built a Mistral-powered personal assistant on AugmentOS and Even
+                Realities G1 at{" "}
+                <a
+                  href="https://x.com/clairebookworm1/status/1891929538101166183"
+                  target="_blank"
+                  className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
+                >
+                  TreeHacks
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+
+          <div className="flex">
+            <div className="pr-2 py-3">
+              <a
                 href="https://perplexity-clone-kappa.vercel.app/"
                 target="_blank"
                 className="hover:opacity-80"

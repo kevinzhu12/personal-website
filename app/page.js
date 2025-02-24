@@ -70,7 +70,7 @@ export default function Home() {
               target="_blank"
             >
               Scale AI
-            </a>{" "}
+            </a>
             .
           </p>
         </div>
