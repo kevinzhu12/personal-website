@@ -75,20 +75,6 @@ export default function PastWork() {
           <div className="flex justify-between items-start">
             <div className="pr-2 py-3">
               <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
-                MIT CSAIL - Kellis Lab
-              </h2>
-              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
-                Researcher
-              </h3>
-            </div>
-            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
-              Sep 2024 - Present
-            </p>
-          </div>
-
-          <div className="flex justify-between items-start">
-            <div className="pr-2 py-3">
-              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
                 Tomo AI
               </h2>
               <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
@@ -111,34 +97,6 @@ export default function PastWork() {
             </div>
             <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
               May - Aug 2024
-            </p>
-          </div>
-
-          <div className="flex justify-between items-start">
-            <div className="pr-2 py-3">
-              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
-                Swiftly
-              </h2>
-              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
-                Tech Consultant
-              </h3>
-            </div>
-            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
-              Jan - May 2024
-            </p>
-          </div>
-
-          <div className="flex justify-between items-start">
-            <div className="pr-2 py-3">
-              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
-                MIT Media Lab
-              </h2>
-              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
-                Researcher
-              </h3>
-            </div>
-            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
-              Nov 2023 - Feb 2024
             </p>
           </div>
         </div>
