@@ -51,7 +51,7 @@ export default function PastWork() {
                 Scale AI
               </h2>
               <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
-                Incoming Software Engineer Intern
+                Software Engineer Intern / Research Intern (SEAL)
               </h3>
             </div>
             <p className="text-sm text-[#1A1A1A] dark:text-white py-3">

@@ -28,7 +28,7 @@ export default function Home() {
       <section className="space-y-5">
         <div className="space-y-3">
           <h1 className="text-4xl font-garamond text-coffee-600 dark:text-dark-text tracking-tight">
-            Hi, I'm Kevin. 👋
+            <span className="font-semibold">Hi, I'm Kevin. 👋</span>
           </h1>
           <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
             I'm studying CS and math at{" "}
@@ -63,7 +63,7 @@ export default function Home() {
             >
               Voloridge Investment Management
             </a>
-            . This summer, I'll be interning at{" "}
+            . This summer, I'm interning at{" "}
             <a
               href="https://scale.com/"
               className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
@@ -71,7 +71,7 @@ export default function Home() {
             >
               Scale AI
             </a>
-            .
+            , where I'm working on growth engineering and research with SEAL (Safety, Evaluation, and Alignment Lab).
           </p>
         </div>
 
