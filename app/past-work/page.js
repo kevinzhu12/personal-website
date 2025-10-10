@@ -55,7 +55,7 @@ export default function PastWork() {
               </h3>
             </div>
             <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
-              Summer 2025
+              May - Aug 2025
             </p>
           </div>
           <div className="flex justify-between items-start">

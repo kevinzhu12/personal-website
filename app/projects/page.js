@@ -47,6 +47,27 @@ export default function Projects() {
           <div className="flex">
             <div className="pr-2 py-3">
               <a
+                href="https://scale.com/research/mrt"
+                target="_blank"
+                className="hover:opacity-80"
+              >
+                <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                  Reliable Weak-to-Strong Monitoring of LLM Agents
+                </h2>
+              </a>
+              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                Neil Kale, Chen Bo Calvin Zhang, Kevin Zhu, Ankit Aich, Paula
+                Rodriguez, Scale Red Team, Christina Q. Knight, Zifan Wang.
+              </h3>
+              <p className="text-sm text-[#1A1A1A] dark:text-white mt-1">
+                Submitted to ICLR, 2026
+              </p>
+            </div>
+          </div>
+
+          <div className="flex">
+            <div className="pr-2 py-3">
+              <a
                 href="https://devpost.com/software/mirror-lmd54a"
                 target="_blank"
                 className="hover:opacity-80"

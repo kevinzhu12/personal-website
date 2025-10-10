@@ -28,18 +28,10 @@ export default function Home() {
       <section className="space-y-5">
         <div className="space-y-3">
           <h1 className="text-4xl font-garamond text-coffee-600 dark:text-dark-text tracking-tight">
-            <span className="font-semibold">Hi, I'm Kevin. 👋</span>
+            <span className="">Hi, I'm Kevin. 👋</span>
           </h1>
           <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
-            I'm studying CS and math at{" "}
-            <a
-              href="https://www.mit.edu"
-              className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
-              target="_blank"
-            >
-              MIT
-            </a>
-            . I invest in early-stage startups at{" "}
+            I'm studying CS and AI at MIT. I invest in early-stage startups at{" "}
             <a
               href="https://www.dormroomfund.com/"
               className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
@@ -55,15 +47,7 @@ export default function Home() {
             >
               HackMIT
             </a>
-            . I previously built trading systems at{" "}
-            <a
-              href="https://voloridge.com/"
-              className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
-              target="_blank"
-            >
-              Voloridge Investment Management
-            </a>
-            . This summer, I'm interning at{" "}
+            . I previously interned at{" "}
             <a
               href="https://scale.com/"
               className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
@@ -71,7 +55,24 @@ export default function Home() {
             >
               Scale AI
             </a>
-            , where I'm working on growth engineering and research with SEAL (Safety, Evaluation, and Alignment Lab).
+            , where I worked on growth engineering and research with{" "}
+            <a
+              href="https://scale.com/blog/safety-evaluations-alignment-lab"
+              className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
+              target="_blank"
+            >
+              SEAL
+            </a>{" "}
+            (Safety, Evaluation, and Alignment Lab). I've also spent time
+            working on trading systems at{" "}
+            <a
+              href="https://voloridge.com/"
+              className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
+              target="_blank"
+            >
+              Voloridge Investment Management
+            </a>
+            .
           </p>
         </div>
 
