@@ -23,13 +23,14 @@ import { useRouter } from "next/router";
 
 export default function Home() {
   return (
-    <main>
+    <main className="font-garamond">
       {/* ABOUT ME */}
       <section className="space-y-5">
         <div className="space-y-3">
           <h1 className="text-4xl font-garamond text-coffee-600 dark:text-dark-text tracking-tight">
-            <span className="">Hi, I'm Kevin. 👋</span>
+            <span className="">Kevin Zhu</span>
           </h1>
+          <Separator className="bg-cream-200 dark:bg-dark-hover" />
           <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
             I'm studying CS and AI at MIT. I invest in early-stage startups at{" "}
             <a
@@ -47,7 +48,10 @@ export default function Home() {
             >
               HackMIT
             </a>
-            . I previously interned at{" "}
+            .
+          </p>
+          <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
+            I previously interned at{" "}
             <a
               href="https://scale.com/"
               className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
@@ -73,6 +77,11 @@ export default function Home() {
               Voloridge Investment Management
             </a>
             .
+          </p>
+          <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
+            I'm currently working on diffusion language models at the Torralba
+            Lab in CSAIL. Also interested in exploring AI for drug discovery,
+            robotics, and world models!
           </p>
         </div>
 

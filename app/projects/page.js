@@ -34,13 +34,13 @@ import SharedFooter from "../components/shared-footer";
 
 export default function Projects() {
   return (
-    <main>
+    <main className="font-garamond">
       <section id="projects-section" className="space-y-5">
         <div className="space-y-3">
           <h2 className="text-4xl font-garamond text-coffee-600 dark:text-white tracking-tight">
             Projects
           </h2>
-          <Separator className="bg-coffee-400 dark:bg-dark-hover" />
+          <Separator className="bg-cream-200 dark:bg-dark-hover" />
         </div>
 
         <div className="space-y-4">
@@ -117,7 +117,7 @@ export default function Projects() {
           </div>
         </div>
       </section>
-      <SharedFooter />
+      {/* <SharedFooter />*/}
     </main>
   );
 }

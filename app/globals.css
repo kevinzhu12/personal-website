@@ -5,135 +5,141 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap");
 
 @font-face {
-  font-family: "Satoshi";
-  src: url("/fonts/Satoshi-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Satoshi";
+    src: url("/fonts/Satoshi-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Satoshi";
-  src: url("/fonts/Satoshi-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
+    font-family: "Satoshi";
+    src: url("/fonts/Satoshi-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Satoshi";
-  src: url("/fonts/Satoshi-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Satoshi";
+    src: url("/fonts/Satoshi-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Cal Sans";
-  src: url("https://cal.com/fonts/CalSans-SemiBold.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Cal Sans";
+    src: url("https://cal.com/fonts/CalSans-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Sohne";
-  src: url("https://cdn.fontshare.com/wf/QFQATWZ2VDXS52VHABEXFWBK4Y6UMZLI/2RRQP3QCBHK7D2ZPMX5BN5CHXWQPZ4HQ/MLRK5WVZPD63ZRNCV5JYVF4SUPNWXC5I.woff2")
-    format("woff2");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Sohne";
+    src: url("https://cdn.fontshare.com/wf/QFQATWZ2VDXS52VHABEXFWBK4Y6UMZLI/2RRQP3QCBHK7D2ZPMX5BN5CHXWQPZ4HQ/MLRK5WVZPD63ZRNCV5JYVF4SUPNWXC5I.woff2")
+        format("woff2");
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Sohne";
-  src: url("https://cdn.fontshare.com/wf/QWQRXLNZ2XTVVBXQGZUHMQP2DMRXCQCN/KQKZH2GEURNXHM6RYVH4F5J5FRFVEXF5/2XSDVTXFPYKXCKHZFSYP7DWXTXRXC4WX.woff2")
-    format("woff2");
-  font-weight: 500;
-  font-style: normal;
+    font-family: "Sohne";
+    src: url("https://cdn.fontshare.com/wf/QWQRXLNZ2XTVVBXQGZUHMQP2DMRXCQCN/KQKZH2GEURNXHM6RYVH4F5J5FRFVEXF5/2XSDVTXFPYKXCKHZFSYP7DWXTXRXC4WX.woff2")
+        format("woff2");
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Sohne";
-  src: url("https://cdn.fontshare.com/wf/Y2WLBQR2CSQK75LCRM23JGMRTrack4BQWQ/BWDD3KXZWBH6NKW2DBHD4ZMHTRACK4BQW/FQKW2XVZFHK75LCRM23JGMRTRACK4BQW.woff2")
-    format("woff2");
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Sohne";
+    src: url("https://cdn.fontshare.com/wf/Y2WLBQR2CSQK75LCRM23JGMRTrack4BQWQ/BWDD3KXZWBH6NKW2DBHD4ZMHTRACK4BQW/FQKW2XVZFHK75LCRM23JGMRTRACK4BQW.woff2")
+        format("woff2");
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Geist";
-  src: url("https://assets.vercel.com/raw/upload/v1697831936/fonts/geist/Geist-Regular.woff2")
-    format("woff2");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Geist";
+    src: url("https://assets.vercel.com/raw/upload/v1697831936/fonts/geist/Geist-Regular.woff2")
+        format("woff2");
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Geist";
-  src: url("https://assets.vercel.com/raw/upload/v1697831936/fonts/geist/Geist-Medium.woff2")
-    format("woff2");
-  font-weight: 500;
-  font-style: normal;
+    font-family: "Geist";
+    src: url("https://assets.vercel.com/raw/upload/v1697831936/fonts/geist/Geist-Medium.woff2")
+        format("woff2");
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Geist";
-  src: url("https://assets.vercel.com/raw/upload/v1697831936/fonts/geist/Geist-SemiBold.woff2")
-    format("woff2");
-  font-weight: 600;
-  font-style: normal;
+    font-family: "Geist";
+    src: url("https://assets.vercel.com/raw/upload/v1697831936/fonts/geist/Geist-SemiBold.woff2")
+        format("woff2");
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Geist";
-  src: url("https://assets.vercel.com/raw/upload/v1697831936/fonts/geist/Geist-Bold.woff2")
-    format("woff2");
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Geist";
+    src: url("https://assets.vercel.com/raw/upload/v1697831936/fonts/geist/Geist-Bold.woff2")
+        format("woff2");
+    font-weight: 700;
+    font-style: normal;
 }
 
 @layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-  }
+    :root {
+        --background: 0 0% 100%;
+        /*--foreground: 222.2 84% 4.9%;*/
+        --foreground: 0 0% 100%;
+    }
 
-  .dark {
-    --background: 0 0% 10%;
-    --foreground: 210 40% 98%;
-  }
+    .dark {
+        --background: 0 0% 10%;
+        /*--foreground: 210 40% 98%;*/
+        --foreground: 0 0% 100%;
+    }
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-cream-50 text-coffee-400 font-garamond transition-colors duration-200
-    dark:bg-dark-bg dark:text-dark-text;
-    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.4' numOctaves='5' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.28'/%3E%3C/svg%3E"),
-      linear-gradient(to bottom, #f5f1e8, #f5f1e8);
-    background-repeat: repeat;
-    background-size: 120px 120px, 100% 100%;
-  }
+    * {
+        @apply border-border;
+    }
+    body {
+        /*@apply bg-cream-50 text-coffee-400 font-garamond transition-colors duration-200
+    dark:bg-dark-bg dark:text-dark-text;*/
+        /*background-image:
+            url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.4' numOctaves='5' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.28'/%3E%3C/svg%3E"),
+            linear-gradient(to bottom, #f5f1e8, #f5f1e8);
+        background-repeat: repeat;
+        background-size:
+            120px 120px,
+            100% 100%;*/
+    }
 
-  /* Update dark mode background */
-  .dark body {
-    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.4' numOctaves='5' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.15'/%3E%3C/svg%3E"),
-      linear-gradient(to bottom, #1a1a1a, #1a1a1a);
-  }
+    /* Update dark mode background */
+    .dark body {
+        background-image:
+            /*url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.4' numOctaves='5' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.15'/%3E%3C/svg%3E"),*/
+            linear-gradient(to bottom, #1a1a1a, #1a1a1a);
+    }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-garamond;
-  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-garamond;
+    }
 
-  .magic-card {
-    @apply bg-white dark:bg-dark-card transition-colors duration-200;
-  }
+    .magic-card {
+        @apply bg-white dark:bg-dark-card transition-colors duration-200;
+    }
 }
 
 body {
-  @apply mx-auto max-w-4xl relative;
+    @apply mx-auto max-w-4xl relative;
 }
