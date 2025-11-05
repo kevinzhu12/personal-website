@@ -81,7 +81,7 @@ export default function Home() {
           <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
             I'm currently working on diffusion language models at the Torralba
             Lab in CSAIL. Also interested in exploring AI for drug discovery,
-            robotics, and world models!
+            robotics, world models, and financial markets!
           </p>
         </div>
 
