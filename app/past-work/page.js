@@ -39,7 +39,7 @@ export default function PastWork() {
       <section id="past-work-section" className="space-y-5">
         <div className="space-y-3">
           <h2 className="text-4xl font-garamond text-coffee-600 dark:text-white tracking-tight">
-            Past Work
+            Work
           </h2>
           <Separator className="bg-cream-200 dark:bg-dark-hover" />
         </div>

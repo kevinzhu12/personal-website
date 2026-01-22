@@ -50,8 +50,7 @@ export default function Home() {
               target="_blank"
             >
               SEAL
-            </a>{" "}
-            (Safety, Evaluation, and Alignment Lab). I also invest in early-stage startups at{" "}
+            </a>. I also invest in early-stage startups at{" "}
             <a
               href="https://www.dormroomfund.com/"
               className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
