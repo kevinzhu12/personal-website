@@ -68,6 +68,26 @@ export default function Projects() {
           <div className="flex">
             <div className="pr-2 py-3">
               <a
+                href="https://github.com/kevinzhu12/my-message"
+                target="_blank"
+                className="hover:opacity-80"
+              >
+                <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                  myMessage
+                </h2>
+              </a>
+              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                AI-powered iMessage
+              </h3>
+              <p className="text-sm text-[#1A1A1A] dark:text-white mt-1">
+              Reverse-engineered iMessage DB to build a custom messaging app with AI features like tab autocompletion, assistant panel, and cross-chat memory.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex">
+            <div className="pr-2 py-3">
+              <a
                 href="https://devpost.com/software/mirror-lmd54a"
                 target="_blank"
                 className="hover:opacity-80"

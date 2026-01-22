@@ -32,23 +32,7 @@ export default function Home() {
           </h1>
           <Separator className="bg-cream-200 dark:bg-dark-hover" />
           <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
-            I'm studying CS and AI at MIT. I invest in early-stage startups at{" "}
-            <a
-              href="https://www.dormroomfund.com/"
-              className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
-              target="_blank"
-            >
-              Dorm Room Fund
-            </a>{" "}
-            and help organize{" "}
-            <a
-              href="https://hackmit.org/"
-              className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
-              target="_blank"
-            >
-              HackMIT
-            </a>
-            .
+            I'm studying CS and AI at MIT. This spring, I'm taking a gap semester to work on research at Bridgewater AIA Labs in NYC!
           </p>
           <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
             I previously interned at{" "}
@@ -67,22 +51,23 @@ export default function Home() {
             >
               SEAL
             </a>{" "}
-            (Safety, Evaluation, and Alignment Lab). I've also spent time
-            working on trading systems at{" "}
+            (Safety, Evaluation, and Alignment Lab). I also invest in early-stage startups at{" "}
             <a
-              href="https://voloridge.com/"
+              href="https://www.dormroomfund.com/"
               className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
               target="_blank"
             >
-              Voloridge Investment Management
+              Dorm Room Fund
+            </a>{" "}
+            and help organize{" "}
+            <a
+              href="https://hackmit.org/"
+              className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
+              target="_blank"
+            >
+              HackMIT
             </a>
             .
-          </p>
-          <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
-            I'm currently working on diffusion language models (Torralba Lab)
-            and efficient CoT reasoning (Isola Lab) in CSAIL. Also interested in
-            exploring AI for drug discovery, robotics, world models, and
-            financial markets!
           </p>
         </div>
 
