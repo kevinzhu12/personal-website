@@ -32,7 +32,7 @@ export default function Home() {
           </h1>
           <Separator className="bg-cream-200 dark:bg-dark-hover" />
           <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
-            I'm studying CS and AI at MIT. This spring, I'm taking a gap semester to work on research at Bridgewater AIA Labs in NYC!
+            I'm studying CS and AI at MIT. This spring, I'm taking a gap semester to work on research at Bridgewater AIA Labs in NYC.
           </p>
           <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
             I previously interned at{" "}
