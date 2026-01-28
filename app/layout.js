@@ -20,7 +20,7 @@ config.autoAddCss = false;
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Kevin Zhu",
+  title: "kevin zhu",
   description: "My Website",
   icons: {
     icon: "/favicon.ico",
@@ -35,10 +35,10 @@ export default function RootLayout({ children }) {
           {/* Navbar */}
           <nav className="flex items-center justify-between py-8">
             <div className="space-x-12">
-              <NavLink href="/">Home</NavLink>
-              <NavLink href="/work">Work</NavLink>
-              <NavLink href="/projects">Projects</NavLink>
-              <NavLink href="/blog">Blog</NavLink>
+              <NavLink href="/">home</NavLink>
+              <NavLink href="/work">work</NavLink>
+              <NavLink href="/projects">projects</NavLink>
+              <NavLink href="/blog">blog</NavLink>
             </div>
             <ThemeToggle />
           </nav>

@@ -35,38 +35,7 @@ export default function Home() {
             I'm studying CS and AI at MIT. This spring, I'm taking a gap semester to work on research at Bridgewater AIA Labs in NYC.
           </p>
           <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
-            I previously interned at{" "}
-            <a
-              href="https://scale.com/"
-              className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
-              target="_blank"
-            >
-              Scale AI
-            </a>
-            , where I worked on growth engineering and research with{" "}
-            <a
-              href="https://scale.com/blog/safety-evaluations-alignment-lab"
-              className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
-              target="_blank"
-            >
-              SEAL
-            </a>. I also invest in early-stage startups at{" "}
-            <a
-              href="https://www.dormroomfund.com/"
-              className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
-              target="_blank"
-            >
-              Dorm Room Fund
-            </a>{" "}
-            and help organize{" "}
-            <a
-              href="https://hackmit.org/"
-              className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
-              target="_blank"
-            >
-              HackMIT
-            </a>
-            .
+            I previously interned at Scale AI, where I worked on growth engineering and research with SEAL. I also invest in early-stage startups at Dorm Room Fund and help organize HackMIT.
           </p>
         </div>
 

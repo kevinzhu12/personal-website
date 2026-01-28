@@ -45,19 +45,19 @@ export default function PastWork() {
         </div>
 
         <div className="space-y-5">
-        <div className="flex justify-between items-start">
-          
-            <div className="pr-2 py-3">
-              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
-                Bridgewater AIA Labs
-              </h2>
-              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
-                Research Intern
-              </h3>
-            </div>
-            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
-              Present
-            </p>
+
+            <div className="flex justify-between items-start">
+                <div className="pr-2 py-3">
+                <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                    Bridgewater AIA Labs
+                </h2>
+                <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                    Research Intern
+                </h3>
+                </div>
+                <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
+                Present
+                </p>
           </div>
 
           <div className="flex justify-between items-start">
@@ -88,19 +88,19 @@ export default function PastWork() {
             </p>
           </div>
 
-          {/* <div className="flex justify-between items-start">
+          <div className="flex justify-between items-start">
             <div className="pr-2 py-3">
               <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
-                Tomo AI
+                Dorm Room Fund
               </h2>
               <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
-                Software Engineer
+                Investment Partner
               </h3>
             </div>
             <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
-              Jan - Sep 2024
+              2024 - Present
             </p>
-          </div> */}
+          </div>
 
           <div className="flex justify-between items-start">
             <div className="pr-2 py-3">
