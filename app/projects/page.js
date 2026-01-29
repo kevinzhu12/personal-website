@@ -56,7 +56,7 @@ export default function Projects() {
                 </h2>
               </a>
               <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
-                Neil Kale, Chen Bo Calvin Zhang*, kevin zhu*, Ankit Aich, Paula
+                Neil Kale, Chen Bo Calvin Zhang*, Kevin Zhu*, Ankit Aich, Paula
                 Rodriguez, Scale Red Team, Christina Q. Knight, Zifan Wang.
               </h3>
               <p className="text-sm text-[#1A1A1A] dark:text-white mt-1">
