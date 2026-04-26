@@ -23,7 +23,6 @@ import quote_search from "@/public/quote_search.png";
 import quick_def from "@/public/quick_def.png";
 import jabber_ai from "@/public/jabber_ai.png";
 import journeygenie from "@/public/journeygenie.png";
-import llnl from "@/public/llnl.png";
 import media_lab_logo from "@/public/media_lab_logo.jpeg";
 import swiftly from "@/public/swiftly.png";
 import anichat from "@/public/anichat.png";
@@ -99,20 +98,6 @@ export default function PastWork() {
             </div>
             <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
               2024 - Present
-            </p>
-          </div>
-
-          <div className="flex justify-between items-start">
-            <div className="pr-2 py-3">
-              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
-                Lawrence Livermore National Laboratory
-              </h2>
-              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
-                Data Science Intern
-              </h3>
-            </div>
-            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
-              May - Aug 2024
             </p>
           </div>
         </div>
