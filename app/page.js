@@ -16,7 +16,7 @@ export default function Home() {
           <Separator className="bg-cream-200 dark:bg-dark-hover" />
           <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
             I'm currently on leave from MIT, working on LLM post-training at
-            Bridgewater AIA Labs.
+            Bridgewater AIA Labs. This summer, I'll be interning at OpenAI.
           </p>
           <div className="space-y-3 text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
             <p>Previously:</p>
