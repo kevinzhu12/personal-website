@@ -15,18 +15,22 @@ export default function Home() {
           </h1>
           <Separator className="bg-cream-200 dark:bg-dark-hover" />
           <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
-            I'm currently on leave from MIT, working on LLM post-training at
-            Bridgewater AIA Labs. This summer, I'll be interning at OpenAI.
+            I'm currently studying CS at MIT! This summer, I'm working on
+            ChatGPT Agent at OpenAI.
           </p>
           <div className="space-y-3 text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
             <p>Previously:</p>
             <ul className="list-disc pl-5 space-y-2 marker:text-coffee-400 dark:marker:text-dark-muted">
               <li>
-                Worked on growth engineering and LLM oversight research (SEAL)
-                at Scale AI
+                Worked on LLM post-training at Bridgewater AIA Labs (on-leave
+                from MIT)
+              </li>
+              <li>
+                Worked on growth engineering and scalable oversight research at
+                Scale AI (SEAL)
               </li>
               <li>Invested in early-stage startups at Dorm Room Fund</li>
-              <li>Organized HackMIT</li>
+              <li>Helped lead fundraising for HackMIT 2025</li>
             </ul>
           </div>
         </div>
