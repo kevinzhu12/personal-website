@@ -15,8 +15,8 @@ export default function Home() {
           </h1>
           <Separator className="bg-cream-200 dark:bg-dark-hover" />
           <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
-            I'm currently studying CS at MIT! This summer, I'm working on
-            ChatGPT Agent at OpenAI.
+            I'm currently studying CS at MIT! This summer, I'm working on Codex
+            at OpenAI.
           </p>
           <div className="space-y-3 text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
             <p>Previously:</p>
