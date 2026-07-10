@@ -47,6 +47,36 @@ export default function Projects() {
           <div className="flex">
             <div className="pr-2 py-3">
               <a
+                href="https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/"
+                target="_blank"
+                className="hover:opacity-80"
+              >
+                <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                  Learning to Replicate Expert Judgment in Financial Tasks
+                </h2>
+              </a>
+              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                Sarah Su, Kevin Zhu, Emily Xiao, Rohan Alur, Daniel Kang, in
+                collaboration with Thinking Machines
+              </h3>
+              <p className="text-sm text-[#1A1A1A] dark:text-white mt-1">
+                Bridgewater AIA Labs blog post in collaboration with Thinking
+                Machines. Check it out {` `}
+                <a
+                  href="https://x.com/kevinbzhu/status/2072045347061268955?s=20"
+                  target="_blank"
+                  className="text-accent-blue hover:text-accent-hover underline-offset-4 hover:underline transition-colors"
+                >
+                  here
+                </a>
+                !
+              </p>
+            </div>
+          </div>
+
+          <div className="flex">
+            <div className="pr-2 py-3">
+              <a
                 href="https://scale.com/research/mrt"
                 target="_blank"
                 className="hover:opacity-80"
@@ -60,7 +90,8 @@ export default function Projects() {
                 Rodriguez, Scale Red Team, Christina Q. Knight, Zifan Wang.
               </h3>
               <p className="text-sm text-[#1A1A1A] dark:text-white mt-1">
-                International Conference on Learning Representations (ICLR), 2026 (Oral)
+                International Conference on Learning Representations (ICLR),
+                2026 (Oral)
               </p>
             </div>
           </div>
@@ -80,7 +111,9 @@ export default function Projects() {
                 AI-powered iMessage
               </h3>
               <p className="text-sm text-[#1A1A1A] dark:text-white mt-1">
-              Reverse-engineered iMessage DB to build a custom messaging app with AI features like tab autocompletion, assistant panel, and cross-chat memory.
+                Reverse-engineered iMessage DB to build a custom messaging app
+                with AI features like tab autocompletion, assistant panel, and
+                cross-chat memory.
               </p>
             </div>
           </div>
