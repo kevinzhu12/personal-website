@@ -20,7 +20,6 @@ import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 import mantis from "@/public/mantis.png";
 import quote_search from "@/public/quote_search.png";
 import quick_def from "@/public/quick_def.png";
-import jabber_ai from "@/public/jabber_ai.png";
 import journeygenie from "@/public/journeygenie.png";
 import llnl from "@/public/llnl.png";
 import media_lab_logo from "@/public/media_lab_logo.jpeg";
@@ -147,27 +146,6 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="flex">
-            <div className="pr-2 py-3">
-              <a
-                href="https://devpost.com/software/jabber-ai"
-                target="_blank"
-                className="hover:opacity-80"
-              >
-                <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
-                  Jabber
-                </h2>
-              </a>
-              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
-                AI project planning assistant
-              </h3>
-              <p className="text-sm text-[#1A1A1A] dark:text-white mt-1">
-                Used Hume AI's EVI to create voice interaction. GPT then
-                processes user transcripts into organized notecards on a
-                whiteboard space.
-              </p>
-            </div>
-          </div>
         </div>
       </section>
       {/* <SharedFooter />*/}
