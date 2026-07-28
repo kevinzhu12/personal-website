@@ -35,10 +35,10 @@ export default function RootLayout({ children }) {
           {/* Navbar */}
           <nav className="flex items-center justify-between py-8">
             <div className="space-x-12">
-              <NavLink href="/">home</NavLink>
-              <NavLink href="/work">work</NavLink>
-              <NavLink href="/projects">projects</NavLink>
-              <NavLink href="/blog" className="opacity-0">blog</NavLink>
+              <NavLink href="/">Home</NavLink>
+              <NavLink href="/work">Work</NavLink>
+              <NavLink href="/projects">Projects</NavLink>
+              <NavLink href="/blog" className="opacity-0">Blog</NavLink>
             </div>
             <ThemeToggle />
           </nav>
