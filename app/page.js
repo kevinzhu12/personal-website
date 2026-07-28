@@ -34,6 +34,7 @@ export default function Home() {
                   title="Learning to Replicate Expert Judgment in Financial Tasks"
                   image="https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/images/cover-social.png"
                   domain="Bridgewater AIA Labs and Thinking Machines"
+                  xHref="https://x.com/kevinbzhu/status/2072045347061268955?s=20"
                 />
               </li>
               <li>
@@ -44,6 +45,7 @@ export default function Home() {
                   title="Reliable Weak-to-Strong Monitoring for LLMs"
                   image="https://labs.scale.com/og?title=Reliable%20Weak-to-Strong%20Monitoring%20for%20LLMs&subtitle=Scale%20Labs&theme=light"
                   domain="Scale AI"
+                  xHref="https://x.com/kevinbzhu/status/1961422873307840832?s=20"
                 />
               </li>
               <li>Invested in early-stage startups at Dorm Room Fund</li>
