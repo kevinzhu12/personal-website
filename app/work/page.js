@@ -113,6 +113,20 @@ export default function PastWork() {
               2024 - Present
             </p>
           </div>
+
+          <div className="flex justify-between items-start">
+            <div className="pr-2 py-3">
+              <h2 className="text-xl font-bold text-[#1A1A1A] dark:text-white">
+                Bain Capital Ventures
+              </h2>
+              <h3 className="text-base italic text-[#1A1A1A] dark:text-white mt-1">
+                BCV Labs Fellow
+              </h3>
+            </div>
+            <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
+              May 2026 - Present
+            </p>
+          </div>
         </div>
       </section>
       {/* <SharedFooter />*/}
