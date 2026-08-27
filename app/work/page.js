@@ -34,10 +34,10 @@ import SharedFooter from "../components/shared-footer";
 
 export default function PastWork() {
   return (
-    <main className="font-garamond">
+    <main>
       <section id="past-work-section" className="space-y-5">
         <div className="space-y-3">
-          <h2 className="text-4xl font-garamond text-coffee-600 dark:text-white tracking-tight">
+          <h2 className="text-4xl text-coffee-600 dark:text-white tracking-tight">
             Work
           </h2>
           <Separator className="bg-cream-200 dark:bg-dark-hover" />
@@ -133,4 +133,3 @@ export default function PastWork() {
     </main>
   );
 }
-

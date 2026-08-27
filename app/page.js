@@ -12,23 +12,23 @@ import LinkPreviewCard from "./components/link-preview-card";
 
 export default function Home() {
   return (
-    <main className="font-garamond">
+    <main>
       <section className="space-y-5">
         <div className="space-y-3">
-          <h1 className="text-4xl font-garamond text-coffee-600 dark:text-dark-text tracking-tight">
+          <h1 className="text-4xl text-coffee-600 dark:text-dark-text tracking-tight">
             Kevin Zhu
           </h1>
           <Separator className="bg-cream-200 dark:bg-dark-hover" />
-          <p className="text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
+          <p className="text-lg text-coffee-600 dark:text-dark-text leading-relaxed">
             I'm currently studying CS at MIT! This summer, I'm working on
             artifacts in Codex at OpenAI.
           </p>
-          <div className="space-y-3 text-lg font-garamond text-coffee-600 dark:text-dark-text leading-relaxed">
+          <div className="space-y-3 text-lg text-coffee-600 dark:text-dark-text leading-relaxed">
             <p>Previously:</p>
             <ul className="list-disc pl-5 space-y-3 marker:text-coffee-400 dark:marker:text-dark-muted">
               <li>
                 Worked on RL post-training at Bridgewater AIA Labs (on-leave
-                from MIT) 
+                from MIT)
                 <LinkPreviewCard
                   href="https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/"
                   title="Learning to Replicate Expert Judgment in Financial Tasks"
@@ -38,7 +38,7 @@ export default function Home() {
                 />
               </li>
               <li>
-                Worked on growth engineering and scalable oversight research at
+                Worked on growth engineering and CoT monitoring research at
                 Scale AI (SEAL)
                 <LinkPreviewCard
                   href="https://labs.scale.com/papers/mrt"

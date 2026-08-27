@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { Sun, Moon } from "lucide-react";
 
@@ -16,8 +15,6 @@ import ThemeToggle from "./components/theme-toggle";
 import NavLink from "./components/nav-link";
 
 config.autoAddCss = false;
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Kevin Zhu",
