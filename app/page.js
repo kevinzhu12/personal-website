@@ -20,12 +20,12 @@ export default function Home() {
           </h1>
           <Separator className="bg-cream-200 dark:bg-dark-hover" />
           <p className="text-lg text-coffee-600 dark:text-dark-text leading-relaxed">
-            I'm currently studying CS at MIT! This summer, I'm working on
-            artifacts in Codex at OpenAI.
+            I'm currently studying CS at MIT!
           </p>
           <div className="space-y-3 text-lg text-coffee-600 dark:text-dark-text leading-relaxed">
             <p>Previously:</p>
             <ul className="list-disc pl-5 space-y-3 marker:text-coffee-400 dark:marker:text-dark-muted">
+              <li>Worked on Codex artifacts at OpenAI</li>
               <li>
                 Worked on RL post-training at Bridgewater AIA Labs (on-leave
                 from MIT)
