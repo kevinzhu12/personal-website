@@ -8,7 +8,7 @@ import {
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import LinkPreviewCard from "./components/link-preview-card";
+// import LinkPreviewCard from "./components/link-preview-card";
 
 export default function Home() {
   return (
@@ -25,33 +25,86 @@ export default function Home() {
           <div className="space-y-3 text-lg text-coffee-600 dark:text-dark-text leading-relaxed">
             <p>Previously:</p>
             <ul className="list-disc pl-5 space-y-3 marker:text-coffee-400 dark:marker:text-dark-muted">
-              <li>Worked on Codex artifacts at OpenAI</li>
               <li>
-                Worked on RL post-training at Bridgewater AIA Labs (on-leave
-                from MIT)
-                <LinkPreviewCard
+                Worked on Codex artifacts at OpenAI, RL post-training at{" "}
+                <a
+                  href="https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 hover:text-coffee-400 dark:hover:text-dark-muted transition-colors"
+                >
+                  Bridgewater AIA Labs
+                </a>{" "}
+                (on-leave from MIT), and growth engineering and{" "}
+                <a
+                  href="https://labs.scale.com/papers/mrt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 hover:text-coffee-400 dark:hover:text-dark-muted transition-colors"
+                >
+                  CoT monitoring research
+                </a>{" "}
+                at Scale AI (SEAL)
+                {/* <LinkPreviewCard
                   href="https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/"
                   title="Learning to Replicate Expert Judgment in Financial Tasks"
                   image="https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/images/cover-social.png"
                   domain="Bridgewater AIA Labs and Thinking Machines"
                   xHref="https://x.com/kevinbzhu/status/2072045347061268955?s=20"
-                />
-              </li>
-              <li>
-                Worked on growth engineering and CoT monitoring research at
-                Scale AI (SEAL)
-                <LinkPreviewCard
+                /> */}
+                {/* <LinkPreviewCard
                   href="https://labs.scale.com/papers/mrt"
                   title="Reliable Weak-to-Strong Monitoring for LLMs"
                   image="https://labs.scale.com/og?title=Reliable%20Weak-to-Strong%20Monitoring%20for%20LLMs&subtitle=Scale%20Labs&theme=light"
                   domain="Scale AI"
                   xHref="https://x.com/kevinbzhu/status/1961422873307840832?s=20"
-                />
+                /> */}
               </li>
-              <li>Invested in early-stage startups at Dorm Room Fund</li>
-              <li>Helped lead fundraising for HackMIT 2025</li>
+              <li>
+                Invested in early-stage startups at{" "}
+                <a
+                  href="https://www.dormroomfund.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 hover:text-coffee-400 dark:hover:text-dark-muted transition-colors"
+                >
+                  Dorm Room Fund
+                </a>
+              </li>
+              <li>
+                Helped lead fundraising for{" "}
+                <a
+                  href="https://hackmit.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 hover:text-coffee-400 dark:hover:text-dark-muted transition-colors"
+                >
+                  HackMIT 2025
+                </a>
+              </li>
             </ul>
           </div>
+          <p className="text-lg text-coffee-600 dark:text-dark-text leading-relaxed">
+            I'm also an angel investor in{" "}
+            <a
+              href="https://si.inc/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:text-coffee-400 dark:hover:text-dark-muted transition-colors"
+            >
+              Standard Intelligence
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://grounded.ai/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:text-coffee-400 dark:hover:text-dark-muted transition-colors"
+            >
+              Grounded Intelligence
+            </a>
+            .
+          </p>
         </div>
 
         <div className="flex translate-y-1 space-x-8">

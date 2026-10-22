@@ -54,7 +54,7 @@ export default function PastWork() {
               </h3>
             </div>
             <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
-              Present
+              May - Aug 2026
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export default function PastWork() {
               </h3>
             </div>
             <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
-              2024 - Present
+              2024 - 2026
             </p>
           </div>
 
@@ -124,7 +124,7 @@ export default function PastWork() {
               </h3>
             </div>
             <p className="text-sm text-[#1A1A1A] dark:text-white py-3">
-              May 2026 - Present
+              May - Aug 2026
             </p>
           </div>
         </div>
