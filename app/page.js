@@ -26,7 +26,16 @@ export default function Home() {
             <p>Previously:</p>
             <ul className="list-disc pl-5 space-y-3 marker:text-coffee-400 dark:marker:text-dark-muted">
               <li>
-                Worked on Codex artifacts at OpenAI, RL post-training at{" "}
+                Worked on Codex artifacts at{" "}
+                <a
+                  href="https://openai.com/chatgpt-work/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 hover:text-coffee-400 dark:hover:text-dark-muted transition-colors"
+                >
+                  OpenAI
+                </a>
+                , RL post-training at{" "}
                 <a
                   href="https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/"
                   target="_blank"
