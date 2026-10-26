@@ -93,27 +93,6 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <p className="text-lg text-coffee-600 dark:text-dark-text leading-relaxed">
-            I'm also an angel investor in{" "}
-            <a
-              href="https://si.inc/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-4 hover:text-coffee-400 dark:hover:text-dark-muted transition-colors"
-            >
-              Standard Intelligence
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://grounded.ai/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-4 hover:text-coffee-400 dark:hover:text-dark-muted transition-colors"
-            >
-              Grounded Intelligence
-            </a>
-            .
-          </p>
         </div>
 
         <div className="flex translate-y-1 space-x-8">
